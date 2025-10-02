@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url("paper.gif");
+            }
+
+            ul{
+                list-style-image:url('sqpurple.gif');
+            }
+
+            table, th, td{
+                border: 1px solid green;
+                border:1px solid green;
+            }
+
+            table{
+                width:100%
+            }
+
+            th{
+                background-color: green;
+                color:white;
+            }
+
+            tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+
+        <p>This page has an image as the background</p>
+
+        <h2>The list-style-image Property</h2>
+
+        <p>The list-style-image property specifies an image as the list item marker</p>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+
+        <h2>Responsive Table</h2>
+        <p>A responsive table will display a horizontal scroll bar if the screen is too small to display the full content. Resize the browser window to see the effect</p>
+
+        <p>To create a responsive table, add a container element (like div) with <strong>overflow-x:auto</strong>around the table element.</p>
+        <div style="overflow-x:auto;">
+            <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
